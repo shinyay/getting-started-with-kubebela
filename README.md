@@ -162,6 +162,21 @@ spec:
             expose: true
 ```
 
+### 4. Deploy the application (kubectl)
+
+```fish
+# Deploy the application
+kubectl apply -f first-app.yaml
+# Verify the deployment
+kubectl get app first-vela-app
+```
+
+<details>
+<summary>Click to see the output of the above command</summary>
+
+</details>
+
+
 ## Features
 
 - feature:1
