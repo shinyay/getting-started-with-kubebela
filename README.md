@@ -36,7 +36,7 @@ OAM defines three main concepts:
 az login
 
 # Create a resource group
-az group create --name shinyayRG --location eastus
+az group create --name shinyayRG --location japaneast
 
 # Create an AKS cluster
 az aks create \
