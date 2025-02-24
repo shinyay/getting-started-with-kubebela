@@ -74,6 +74,51 @@ helm install kubevela kubevela/vela-core \
 kubectl get pods -n vela-system
 ```
 
+<details>
+<summary>Click to see the output of the above command</summary>
+
+```text
+NAME: kubevela
+LAST DEPLOYED: Mon Feb 24 22:45:04 2025
+NAMESPACE: vela-system
+STATUS: deployed
+REVISION: 1
+NOTES:
+Welcome to use the KubeVela! Enjoy your shipping application journey!
+
+                                   ,
+                                   //,
+                                   ////
+                               ./  /////*
+                             ,///  ///////
+                           ./////  ////////
+                          ///////  /////////
+                         ////////  //////////
+                       ,/////////  ///////////
+                      ,//////////  ///////////.
+                     .///////////  ////////////
+                     ////////////  ////////////.
+                    *////////////  ////////////*
+       #@@@@@@@@@@@*     ..,,***/  /////////////
+        /@@@@@@@@@@@#
+         *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&
+          .@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
+
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                .&@@@*    *@@@&    ,@@@&.
+
+       _  __       _          __     __     _
+      | |/ /_   _ | |__    ___\ \   / /___ | |  __ _
+      | ' /| | | || '_ \  / _ \\ \ / // _ \| | / _` |
+      | . \| |_| || |_) ||  __/ \ V /|  __/| || (_| |
+      |_|\_\\__,_||_.__/  \___|  \_/  \___||_| \__,_|
+
+
+You can refer to https://kubevela.io for more details.
+```
+</details>
+
+
 ### 2. Install KubeVela (Using the KubeVela CLI)
 KubeVela CLI is a command-line tool that provides a set of commands for managing KubeVela applications. It allows you to create, deploy, and manage applications using the OAM model.
 
