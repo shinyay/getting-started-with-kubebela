@@ -50,6 +50,29 @@ az aks create \
 az aks get-credentials --resource-group shinyayRG --name shinyayAKS
 ```
 
+### 2. Install KubeVela (Using the KubeVela CLI)
+KubeVela CLI is a command-line tool that provides a set of commands for managing KubeVela applications. It allows you to create, deploy, and manage applications using the OAM model.
+
+```fish
+# Install KubeVela CLI
+curl -sL https://kubevela.io/script/install.sh | bash
+
+# Verify the installation
+vela version
+
+# Install KubeVela on AKS
+vela install \
+    --namespace vela-system \
+    --cluster-local \
+    --enable-helm \
+    --enable-oci \
+    --enable-logging \
+    --enable-monitoring
+
+# Verify the installation
+kubectl get pods -n vela-system
+```
+
 ## Features
 
 - feature:1
