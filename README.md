@@ -13,6 +13,8 @@ And KubeVela is built on top of Kubernetes and provides a set of abstractions an
 - **Built on Kubernetes**: Leverages Kubernetes as its control plane
 - **Open Application Model (OAM) based**: Uses OAM for application definition and orchestration
 
+### 2. Open Application Model (OAM)
+
 ## Demo
 
 ## Features
