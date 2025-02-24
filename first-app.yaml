@@ -1,0 +1,15 @@
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: first-vela-app
+  namespace: default
+
+spec:
+  components:
+    - name: hello-world
+      type: webservice
+      properties:
+        image: nginx
+        ports:
+          - port: 80
+            expose: true
