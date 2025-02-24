@@ -13,7 +13,12 @@ And KubeVela is built on top of Kubernetes and provides a set of abstractions an
 - **Built on Kubernetes**: Leverages Kubernetes as its control plane
 - **Open Application Model (OAM) based**: Uses OAM for application definition and orchestration
 
-### 2. Open Application Model (OAM)
+### 2. Open Application Model (OAM)\
+OAM is a specification for defining and deploying applications in a cloud-native environment. It provides a set of abstractions and APIs that allow developers to describe their applications in a way that is independent of the underlying infrastructure.
+OAM defines three main concepts:
+- **Components**: The building blocks of an application, such as microservices, databases, and message queues.
+- **Traits**: Additional functionality that can be applied to components, such as scaling, monitoring, and logging.
+- **Scopes**: The environment in which the application is deployed, such as a Kubernetes cluster or a cloud provider.
 
 ## Demo
 
