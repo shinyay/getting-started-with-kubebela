@@ -1,5 +1,7 @@
 # Getting Started with KubeVela with AKS
 
+KubeVela is a modern application delivery platform designed to make deploying and operating applications across hybrid and multi-cloud environments easier, faster, and more reliable.
+And KubeVela is built on top of Kubernetes and provides a set of abstractions and tools that simplify the process of deploying, managing, and scaling applications.
 
 ## Description
 
