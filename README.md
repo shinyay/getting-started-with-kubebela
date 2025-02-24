@@ -3,9 +3,16 @@
 KubeVela is a modern application delivery platform designed to make deploying and operating applications across hybrid and multi-cloud environments easier, faster, and more reliable.
 And KubeVela is built on top of Kubernetes and provides a set of abstractions and tools that simplify the process of deploying, managing, and scaling applications.
 
+## Main Benefits of KubeVela
+- Simplifies application deployment across different environments
+- Provides consistent delivery experience
+- Supports hybrid and multi-cloud deployments
+- Makes application operations more reliable
+- Offers extensible and programmable workflows
+
 ## Description
 
-### 1. Core Futures
+### 1. Core Features
 
 - **Infrastructure agnostic**: Works across different cloud providers and environments
 - **Application-centric**: Focuses on application delivery rather than infrastructure management
