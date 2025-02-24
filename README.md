@@ -29,6 +29,15 @@ OAM defines three main concepts:
 
 ## Demo
 
+### 1. Create an AKS Cluster
+
+```fish
+# Login to Azure
+az login
+
+
+```
+
 ## Features
 
 - feature:1
