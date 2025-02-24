@@ -118,7 +118,6 @@ You can refer to https://kubevela.io for more details.
 ```
 </details>
 
-
 ### 2. Install KubeVela (Using the KubeVela CLI)
 KubeVela CLI is a command-line tool that provides a set of commands for managing KubeVela applications. It allows you to create, deploy, and manage applications using the OAM model.
 
@@ -140,6 +139,27 @@ vela install \
 
 # Verify the installation
 kubectl get pods -n vela-system
+```
+
+### 3. Create your first application
+
+```yaml
+# first-app.yaml
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: first-vela-app
+  namespace: default
+
+spec:
+  components:
+    - name: hello-world
+      type: webservice
+      properties:
+        image: nginx
+        ports:
+          - port: 80
+            expose: true
 ```
 
 ## Features
