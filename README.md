@@ -35,6 +35,9 @@ OAM defines three main concepts:
 # Login to Azure
 az login
 
+# Create a resource group
+az group create --name shinyayRG --location eastus
+
 
 ```
 
