@@ -7,6 +7,12 @@ And KubeVela is built on top of Kubernetes and provides a set of abstractions an
 
 ### 1. Core Futures
 
+- **Infrastructure agnostic**: Works across different cloud providers and environments
+- **Application-centric**: Focuses on application delivery rather than infrastructure management
+- **Programmable**: Allows customization and automation of delivery workflows
+- **Built on Kubernetes**: Leverages Kubernetes as its control plane
+- **Open Application Model (OAM) based**: Uses OAM for application definition and orchestration
+
 ## Demo
 
 ## Features
