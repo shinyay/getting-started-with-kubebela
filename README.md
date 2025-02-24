@@ -46,6 +46,8 @@ az aks create \
     --enable-addons monitoring \
     --generate-ssh-keys
 
+# Get the AKS cluster credentials
+az aks get-credentials --resource-group shinyayRG --name shinyayAKS
 ```
 
 ## Features
