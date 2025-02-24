@@ -167,6 +167,7 @@ spec:
 ```fish
 # Deploy the application
 kubectl apply -f first-app.yaml
+
 # Verify the deployment
 kubectl get app first-vela-app
 ```
