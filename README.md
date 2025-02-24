@@ -38,6 +38,13 @@ az login
 # Create a resource group
 az group create --name shinyayRG --location eastus
 
+# Create an AKS cluster
+az aks create \
+    --resource-group shinyayRG \
+    --name shinyayAKS \
+    --node-count 3 \
+    --enable-addons monitoring \
+    --generate-ssh-keys
 
 ```
 
