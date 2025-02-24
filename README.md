@@ -50,6 +50,30 @@ az aks create \
 az aks get-credentials --resource-group shinyayRG --name shinyayAKS
 ```
 
+### 2. Install KubeVela (Using Helm)
+KubeVela can be installed using Helm, a package manager for Kubernetes. Helm allows you to easily install and manage applications on Kubernetes.
+
+```fish
+# Add the KubeVela Helm repository
+helm repo add kubevela https://charts.kubevela.net/core
+
+# Update the Helm repository
+helm repo update
+
+# Install KubeVela using Helm
+helm install kubevela kubevela/vela-core \
+    --namespace vela-system \
+    --create-namespace \
+    --set global.clusterLocal=true \
+    --set global.enableHelm=true \
+    --set global.enableOCI=true \
+    --set global.enableLogging=true \
+    --set global.enableMonitoring=true
+
+# Verify the installation
+kubectl get pods -n vela-system
+```
+
 ### 2. Install KubeVela (Using the KubeVela CLI)
 KubeVela CLI is a command-line tool that provides a set of commands for managing KubeVela applications. It allows you to create, deploy, and manage applications using the OAM model.
 
